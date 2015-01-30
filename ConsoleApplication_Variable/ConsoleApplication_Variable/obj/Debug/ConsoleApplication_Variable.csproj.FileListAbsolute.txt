@@ -1,6 +1,0 @@
-C:\Users\aewilliams\SkyDrive\Visual Studio 2013\Projects\ConsoleApplication_Variable\ConsoleApplication_Variable\bin\Debug\ConsoleApplication_Variable.exe.config
-C:\Users\aewilliams\SkyDrive\Visual Studio 2013\Projects\ConsoleApplication_Variable\ConsoleApplication_Variable\bin\Debug\ConsoleApplication_Variable.exe
-C:\Users\aewilliams\SkyDrive\Visual Studio 2013\Projects\ConsoleApplication_Variable\ConsoleApplication_Variable\bin\Debug\ConsoleApplication_Variable.pdb
-C:\Users\aewilliams\SkyDrive\Visual Studio 2013\Projects\ConsoleApplication_Variable\ConsoleApplication_Variable\obj\Debug\ConsoleApplication_Variable.csprojResolveAssemblyReference.cache
-C:\Users\aewilliams\SkyDrive\Visual Studio 2013\Projects\ConsoleApplication_Variable\ConsoleApplication_Variable\obj\Debug\ConsoleApplication_Variable.exe
-C:\Users\aewilliams\SkyDrive\Visual Studio 2013\Projects\ConsoleApplication_Variable\ConsoleApplication_Variable\obj\Debug\ConsoleApplication_Variable.pdb
