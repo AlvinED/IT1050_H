@@ -1,0 +1,6 @@
+C:\Users\aewilliams\SkyDrive\Visual Studio 2013\Projects\AlDeeConsoleApp\AlDeeConsoleApp\bin\Debug\AlDeeConsoleApp.exe.config
+C:\Users\aewilliams\SkyDrive\Visual Studio 2013\Projects\AlDeeConsoleApp\AlDeeConsoleApp\bin\Debug\AlDeeConsoleApp.exe
+C:\Users\aewilliams\SkyDrive\Visual Studio 2013\Projects\AlDeeConsoleApp\AlDeeConsoleApp\bin\Debug\AlDeeConsoleApp.pdb
+C:\Users\aewilliams\SkyDrive\Visual Studio 2013\Projects\AlDeeConsoleApp\AlDeeConsoleApp\obj\Debug\AlDeeConsoleApp.csprojResolveAssemblyReference.cache
+C:\Users\aewilliams\SkyDrive\Visual Studio 2013\Projects\AlDeeConsoleApp\AlDeeConsoleApp\obj\Debug\AlDeeConsoleApp.exe
+C:\Users\aewilliams\SkyDrive\Visual Studio 2013\Projects\AlDeeConsoleApp\AlDeeConsoleApp\obj\Debug\AlDeeConsoleApp.pdb

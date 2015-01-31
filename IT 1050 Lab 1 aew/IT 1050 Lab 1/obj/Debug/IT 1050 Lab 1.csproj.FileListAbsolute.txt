@@ -1,0 +1,6 @@
+C:\Users\aewilliams\SkyDrive\Visual Studio 2013\Projects\IT 1050 Lab 1 aew\IT 1050 Lab 1\bin\Debug\IT 1050 Lab 1.exe.config
+C:\Users\aewilliams\SkyDrive\Visual Studio 2013\Projects\IT 1050 Lab 1 aew\IT 1050 Lab 1\bin\Debug\IT 1050 Lab 1.exe
+C:\Users\aewilliams\SkyDrive\Visual Studio 2013\Projects\IT 1050 Lab 1 aew\IT 1050 Lab 1\bin\Debug\IT 1050 Lab 1.pdb
+C:\Users\aewilliams\SkyDrive\Visual Studio 2013\Projects\IT 1050 Lab 1 aew\IT 1050 Lab 1\obj\Debug\IT 1050 Lab 1.csprojResolveAssemblyReference.cache
+C:\Users\aewilliams\SkyDrive\Visual Studio 2013\Projects\IT 1050 Lab 1 aew\IT 1050 Lab 1\obj\Debug\IT 1050 Lab 1.exe
+C:\Users\aewilliams\SkyDrive\Visual Studio 2013\Projects\IT 1050 Lab 1 aew\IT 1050 Lab 1\obj\Debug\IT 1050 Lab 1.pdb
