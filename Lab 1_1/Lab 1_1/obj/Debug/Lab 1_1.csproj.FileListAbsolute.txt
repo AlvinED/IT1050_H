@@ -1,5 +1,1 @@
-C:\Users\aewilliams\SkyDrive\Visual Studio 2013\Projects\Lab 1_1\Lab 1_1\bin\Debug\Lab 1_1.exe.config
-C:\Users\aewilliams\SkyDrive\Visual Studio 2013\Projects\Lab 1_1\Lab 1_1\bin\Debug\Lab 1_1.exe
-C:\Users\aewilliams\SkyDrive\Visual Studio 2013\Projects\Lab 1_1\Lab 1_1\bin\Debug\Lab 1_1.pdb
-C:\Users\aewilliams\SkyDrive\Visual Studio 2013\Projects\Lab 1_1\Lab 1_1\obj\Debug\Lab 1_1.exe
-C:\Users\aewilliams\SkyDrive\Visual Studio 2013\Projects\Lab 1_1\Lab 1_1\obj\Debug\Lab 1_1.pdb
+C:\Users\aewilliams\SkyDrive\Visual Studio 2013\GitHub\IT1050_H\Lab 1_1\Lab 1_1\bin\Debug\Lab 1_1.exe.config
