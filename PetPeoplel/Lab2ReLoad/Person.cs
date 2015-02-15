@@ -6,9 +6,10 @@ namespace Lab2ReLoad
     {
         private String _givenName;
         private String _surName;
+        public static Person Owner { get; set; }
 
         /// instantiate person
-       public Person(String FirstName, String LastName)
+        public Person(String FirstName, String LastName)
         {
             _givenName = FirstName;
             _surName = LastName;
@@ -21,8 +22,6 @@ namespace Lab2ReLoad
             return firstname + " " + lastname;
 
         }
-        
-       
-
+                      
     }
 }

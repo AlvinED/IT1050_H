@@ -8,13 +8,24 @@ namespace Lab2ReLoad
         private string _species;
         public Person _Onwer;
 
-        public Pet(string Name,int Age,string Species,Person Owner)
+        public Pet(string PTName, int PtAge, string PtSpecies, Person PtOwner)
         {
-          
+            _name = PTName;
+            _age = PtAge;
+            _species = PtSpecies;
+            _Onwer = PtOwner;
+
         }
        
-       
-    
-       
+       public string GetPetInfo()
+        {
+            string PTName = this._name;
+            int PtAge = this._age;
+            string PtSpecies = this._species;
+            string GetFullName;
+            return PTName + " " + PtAge + " " + PtSpecies + " " + PtOwner;
+
+
+        }       
     }
 }
