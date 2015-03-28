@@ -10,7 +10,7 @@ namespace Lab4
         public Person Spouse;
         public int sAge;
 
-        public string Create()
+        public string Create()  ///static 
         {
             string firstName = Question.AskForString("What is your frist name?");
             string lastName = Question.AskForString("What is your last name?");
@@ -20,6 +20,7 @@ namespace Lab4
             {
                 string Spouse = Question.AskForString("What is your Spouse frist name?");
                 int sAge = Question.AskForInteger("What your Spouse age?");
+                AverageAge. AddPerson();
                 return firstName + lastName + age + Spouse + sAge;
             }
             else
@@ -27,6 +28,7 @@ namespace Lab4
                 return  firstName + lastName + age;
             }
         }
+        //the get is not static
 
         
     }

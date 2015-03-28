@@ -4,14 +4,17 @@
     {
         private double _sumOfAllAges;
         private int _totalNumberOfPeople;
+        Person age;
+        Person sage;
 
-        public AddPerson()
+        public void AddPerson() //a void method collect info one person at a time
         {
-            //C sharp average
-            //Double [] array1 = {1, 2, 3, 5, 0};
-            //Double average1 = array1.Average ();
-            //Console.WriteLine (average1);
-
+            _sumOfAllAges = double.Parse(age + sage);
+            _totalNumberOfPeople = _totalNumberOfPeople + 1;
+        }
+        public double Get() //
+        {
+            return _sumOfAllAges / _totalNumberOfPeople; // use (double) in front the percedding if no 0.0
         }
             
 
