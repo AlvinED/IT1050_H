@@ -4,13 +4,13 @@ namespace Lab4
 {
     public class Person
     {
-        public int age;
+        public int Age;
         public string firstName;
         public string lastName;
         public Person Spouse;
-        public int sAge;
+        public int Sage;
 
-        public string Create()  ///static 
+        public string Create(string firstName, )  ///static 
         {
             string firstName = Question.AskForString("What is your frist name?");
             string lastName = Question.AskForString("What is your last name?");

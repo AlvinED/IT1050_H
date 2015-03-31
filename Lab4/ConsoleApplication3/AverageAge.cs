@@ -4,12 +4,12 @@
     {
         private double _sumOfAllAges;
         private int _totalNumberOfPeople;
-        Person age;
-        Person sage;
+        //Person Age;
+        //Person Sage;
 
-        public void AddPerson() //a void method collect info one person at a time
+        public void AddPerson(int Age,int Sage) //a void method collect info one person at a time
         {
-            _sumOfAllAges = double.Parse(age + sage);
+            _sumOfAllAges = (Age + Sage);
             _totalNumberOfPeople = _totalNumberOfPeople + 1;
         }
         public double Get() //
