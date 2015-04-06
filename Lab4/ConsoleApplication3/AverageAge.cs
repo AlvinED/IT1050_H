@@ -4,15 +4,19 @@
     {
         private double _sumOfAllAges;
         private int _totalNumberOfPeople;
-        //Person Age;
-        //Person Sage;
-
-        public void AddPerson(int Age,int Sage) //a void method collect info one person at a time
+        Person Age;
+        Person Hu;
+        Person Spouse;
+        
+       
+        // use += to incremnt 
+     
+        public void AddPerson(int Age) 
         {
-            _sumOfAllAges = (Age + Sage);
-            _totalNumberOfPeople = _totalNumberOfPeople + 1;
+            _sumOfAllAges = Hu.Age + Spouse.Age;
+            _totalNumberOfPeople += _totalNumberOfPeople ;
         }
-        public double Get() //
+        public double Get() 
         {
             return _sumOfAllAges / _totalNumberOfPeople; // use (double) in front the percedding if no 0.0
         }

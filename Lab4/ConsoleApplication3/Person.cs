@@ -8,28 +8,28 @@ namespace Lab4
         public string firstName;
         public string lastName;
         public Person Spouse;
-        public int Sage;
+        
 
-        public string Create(string firstName, )  ///static 
+        public static int Create(int Age)  ///static 
         {
-            string firstName = Question.AskForString("What is your frist name?");
-            string lastName = Question.AskForString("What is your last name?");
-            int age = Question.AskForInteger("What your current age?");
-            bool y = Question.AskForBoolean("Are you married?");
-            if (y)
+            Person Hu = new Person(); 
+            Hu.firstName = Question.AskForString("What is your frist name?");
+            Hu.lastName = Question.AskForString("What is your last name?");
+            Hu.Age = Question.AskForInteger("What your current age?");
+            bool isMarried = Question.AskForBoolean("Are you married?");
+           
+            if (isMarried)
             {
-                string Spouse = Question.AskForString("What is your Spouse frist name?");
-                int sAge = Question.AskForInteger("What your Spouse age?");
-                AverageAge. AddPerson();
-                return firstName + lastName + age + Spouse + sAge;
-            }
+                Person Spouse = new Person();
+                Spouse.firstName = Question.AskForString("What is your frist name?");
+                Spouse.lastName = Hu.lastName;
+                Spouse.Age = Question.AskForInteger("What your current age?");
+                return Hu.Age + Spouse.Age;
+             }
             else
             {
-                return  firstName + lastName + age;
+                return Hu.Age;
             }
-        }
-        //the get is not static
-
-        
-    }
+          }
+     }
 }
