@@ -4,17 +4,24 @@
     {
         private double _sumOfAllAges;
         private int _totalNumberOfPeople;
-        Person Age;
-        Person Hu;
-        Person Spouse;
+        public Person Spouse;
         
        
         // use += to incremnt 
      
         public void AddPerson(int Age) 
         {
-            _sumOfAllAges = Hu.Age + Spouse.Age;
-            _totalNumberOfPeople += _totalNumberOfPeople ;
+            _sumOfAllAges += Age ;
+            
+            _totalNumberOfPeople = _totalNumberOfPeople + 1;
+          
+        }
+        public void checkSpouseAge(Person Age)
+        {
+           
+             _totalNumberOfPeople = _totalNumberOfPeople + 1;
+          
+
         }
         public double Get() 
         {
