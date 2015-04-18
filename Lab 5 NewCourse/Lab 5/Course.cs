@@ -6,7 +6,7 @@ namespace Lab_5
     {
         public string cName;
         public int cIDnumber;
-        public int clasSize;
+        
         public Student[] eNrolled;
 
         public void createCourse()
@@ -16,10 +16,9 @@ namespace Lab_5
             myClass.cName = Console.ReadLine();
             Console.WriteLine("Please enter course number");
             myClass.cIDnumber = int.Parse(Console.ReadLine());
-            Console.WriteLine("Please enter Max number of students");
-            myClass.clasSize = int.Parse(Console.ReadLine());
-            myClass.eNrolled = new Student [myClass.clasSize];
-            for (Student eNrolled X = 0 ; X < eNrolled.Length; Student eNrolled++)
+            
+            myClass.eNrolled = new Student [clasSize];
+            for ( eNrolled X = 0 ; X < eNrolled.Length;  eNrolled++)
             {
                 Student.CreateStudent();
             }
