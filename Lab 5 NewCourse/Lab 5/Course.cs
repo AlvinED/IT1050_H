@@ -6,30 +6,25 @@ namespace Lab_5
     {
         public string cName;
         public int cIDnumber;
-        
+        public int classSize;
         public Student[] eNrolled;
 
-        public void createCourse()
+        public Course createCourse()
         {
-            Course myClass = new Course();
             Console.WriteLine("Please enter course name");
-            myClass.cName = Console.ReadLine();
-            Console.WriteLine("Please enter course number");
-            myClass.cIDnumber = int.Parse(Console.ReadLine());
-            
-            myClass.eNrolled = new Student [clasSize];
-            for ( eNrolled X = 0 ; X < eNrolled.Length;  eNrolled++)
+            string cName = Console.ReadLine(); 
+            Course myClass = new Course(); 
+            Console.WriteLine("Please enter course number"); 
+            cIDnumber = int.Parse(Console.ReadLine()); 
+            //instantiate new array
+            eNrolled = new Student[clasSize];
+            for (int i = 0; i < eNrolled.Length; i++)
             {
-                Student.CreateStudent();
+                eNrolled[i] = Student.CreateStudent();
             }
-
-
-
-           
-            
+            return myClass;
         }
-
-            
+        
             
 
 

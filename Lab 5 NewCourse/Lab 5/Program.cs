@@ -7,12 +7,14 @@ namespace Lab_5
         {
             Console.WriteLine("To create a new course. Enter Y if you done enter - N");
             {
-                string courseNew = Console.ReadLine();
+                string courseNew = Console.ReadLine(); //use to commit or do over
             }
             
             Console.WriteLine("Please enter Max number of students");
-            int clasSize = int.Parse(Console.ReadLine());
-            Course.createCourse();
+            int classSize = int.Parse(Console.ReadLine());
+            Course createCourse();
+
+             
 
             
         }
