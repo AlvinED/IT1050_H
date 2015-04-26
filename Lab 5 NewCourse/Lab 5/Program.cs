@@ -5,16 +5,16 @@ namespace Lab_5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("To create a new course. Enter Y if you done enter - N");
-            {
-                string courseNew = Console.ReadLine(); //use to commit or do over
-            }
             
-            Console.WriteLine("Please enter Max number of students");
-            int classSize = int.Parse(Console.ReadLine());
-            Course createCourse();
-
-             
+            bool courseNew = false;
+            Course.createCourse();
+            Console.Write("course creation complete enter Y or N:");  
+            courseNew = Console.ReadLine().StartsWith("y");
+            if (bool.Parse(courseNew = ("y")))
+            {
+                courseNew = true;
+            }
+            while (!courseNew) ;
 
             
         }
