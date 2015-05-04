@@ -12,9 +12,9 @@ namespace Goin2Movie
 
         // apply markup for premium ticket - Night
         // Markup formula Cost X Markup % = MU price for premium tickets
-        double _MarUpChild = 1.75187969924812;
-        double _MarUpAdult = 1.834724540901503;
-        double _MarUpSenior = 1.888888888888889;
+        //double _MarUpChild = 1.75187969924812;
+        //double _MarUpAdult = 1.834724540901503;
+        //double _MarUpSenior = 1.888888888888889;
 
 
        

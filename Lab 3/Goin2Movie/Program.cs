@@ -6,7 +6,10 @@ namespace Goin2Movie
     {
         static void Main(string[] args)
         {
-            
+            MovieGoEr t1 = new MovieGoEr();
+            t1.GetNoCT();
+
+
 
 
 

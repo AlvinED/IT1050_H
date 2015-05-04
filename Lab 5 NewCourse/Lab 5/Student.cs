@@ -6,6 +6,7 @@ namespace Lab_5
     {
         private string _nAme;
         public int sIDnumber;
+        public Student(string _nAme, int sIDnumber);
 
         public Student  CreateStudent()
         {

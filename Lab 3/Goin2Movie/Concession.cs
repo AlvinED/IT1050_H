@@ -9,12 +9,15 @@ namespace Goin2Movie
         public double HotDog;
         public double Popcorn;
         public double Candy;
+        public int Buyer;
 
-        double SmallSoda = 3.5;
-        double LargeSoda = 5.99;
-        double HotDog = 3.99;
-        double Popcorn = 4.5;
-        double Candy = 1.99;
+        //double SmallSoda = 3.5;
+        //double LargeSoda = 5.99;
+        //double HotDog = 3.99;
+        //double Popcorn = 4.5;
+        //double Candy = 1.99;
+
+
 
     }
 }
